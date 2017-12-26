@@ -1,0 +1,37 @@
+{
+  "separator":";",
+  "columns":
+  [
+    {
+      "name": "id",
+      "typeC": "long",
+      "offChars": [".", "*"," "]
+    },
+    {
+      "name": "salary",
+      "typeC": "float",
+      "offChars": []
+    },
+    {
+      "name": "last",
+      "typeC": "string",
+      "offChars": []
+    },
+    {
+      "name": "telephone",
+      "typeC": "string",
+      "offChars": ["."," "]
+    },
+    {
+      "name": "created",
+      "typeC": "time",
+      "offChars": [],
+      "format": "dd-MM-yyyy"
+    },
+    {
+      "name": "infos",
+      "typeC": "json",
+      "offChars": []
+    }
+  ]
+}
