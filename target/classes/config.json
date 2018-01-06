@@ -4,7 +4,7 @@
   [
     {
       "name": "id",
-      "typeC": "long",
+      "typeC": "int",
       "offChars": [".", "*"," "]
     },
     {
@@ -32,6 +32,31 @@
       "name": "infos",
       "typeC": "json",
       "offChars": []
+    },
+    {
+      "name": "country",
+      "typeC": "string",
+      "offChars": [],
+      "parent":"infos",
+      "index" : 0
+    },
+    {
+      "name": "state",
+      "typeC": "string",
+      "offChars": [],
+      "parent":"infos",
+      "index" : 1
+    },
+    {
+      "name": "hauteur",
+      "typeC": "long",
+      "offChars": []
+    },
+    {
+      "name": "surface",
+      "typeC": "double",
+      "offChars": []
     }
+
   ]
 }
